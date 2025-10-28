@@ -4,3 +4,6 @@
 [submodule "LinkPeripherals/_Template"]
 	path = LinkPeripherals/_Template
 	url = git@github.com:Mr-Tinkerman/LinkPeripheral-Template.git
+[submodule "InfiniLink"]
+	path = InfiniLink
+	url = git@github.com:Mr-Tinkerman/InfiniLink.git

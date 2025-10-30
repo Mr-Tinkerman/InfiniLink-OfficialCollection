@@ -17,5 +17,6 @@ default:
 
 git-submod:
 	git restore --staged .
-	git add .gitmodules ${SUBMODULES:%/=%}
+	git add ${SUBMODULES:%/=%}
+	git add .gitmodules
 	git commit -m "Updated submodule(s)"
